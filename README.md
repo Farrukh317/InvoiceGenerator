@@ -88,14 +88,3 @@ Note: this project does not include server-side secret handling — do not commi
 
 - The app captures the invoice preview DOM using `html2canvas` then creates a PDF via `jspdf`.
 - The scripts are included in `index.html` via CDN; the TypeScript code accesses them via the `window` object.
-
-## License
-
-Add your license here (MIT, Apache-2.0, etc.) or remove this section if not applicable.
-
----
-
-If you want, I can also:
-
-- Start the dev server here (`npm install` + `npm run dev`) and share the output.
-- Replace CDN `jspdf`/`html2canvas` with local packaged imports.
